@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="one"
+        android:onClick="switchMethod"
+        android:textColor="#fff"
+        android:background="#f00"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="two"
+        android:onClick="switchMethod"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#f00"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="three"
+        android:onClick="switchMethod"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#f00"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="four"
+        android:onClick="switchMethod"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#f00"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="five"
+        android:onClick="switchMethod"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#f00"/>
+
+</LinearLayout>
